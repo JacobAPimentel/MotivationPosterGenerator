@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_alignParentTop="true"
+                android:background="?attr/colorPrimary"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/posterView"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="#000000"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintDimensionRatio="1:0.65"
+                app:layout_constraintEnd_toStartOf="@+id/guideline8"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/guideline2"
+                app:layout_constraintTop_toBottomOf="@+id/toolbar"
+                app:layout_constraintVertical_bias="0.5" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.02" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.48" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.98" />
+
+            <Button
+                android:id="@+id/saveImageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:drawableLeft="@drawable/ic_baseline_save_alt_24"
+                android:onClick="SaveImage"
+                android:text="@string/save_image"
+                app:layout_constraintEnd_toEndOf="@+id/quoteHeader"
+                app:layout_constraintStart_toStartOf="@+id/quoteHeader"
+                app:layout_constraintTop_toBottomOf="@+id/editQuote"
+                tools:ignore="RtlHardcoded,UsingOnClickInXml" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="25dp"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toTopOf="@+id/setTitleHeader"
+                app:layout_constraintEnd_toEndOf="@+id/imageHeader"
+                app:layout_constraintStart_toStartOf="@+id/imageHeader"
+                app:layout_constraintTop_toBottomOf="@+id/imageHeader">
+
+                <Button
+                    android:id="@+id/cameraButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:drawableLeft="@drawable/ic_baseline_photo_camera_24"
+                    android:onClick="UseCameraImage"
+                    android:text="@string/camera"
+                    app:iconPadding="3dp"
+                    tools:ignore="RtlHardcoded,UsingOnClickInXml" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3.6"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <Button
+                    android:id="@+id/fileImageButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:drawableLeft="@drawable/ic_baseline_attach_file_24"
+                    android:onClick="GetFileImage"
+                    android:paddingLeft="10dp"
+                    android:text="@string/file_image"
+                    app:iconPadding="0dp"
+                    tools:ignore="RtlHardcoded,RtlSymmetry,UsingOnClickInXml" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/imageHeader"
+                style="@style/Heading"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="15dp"
+                android:gravity="center"
+                android:text="@string/image"
+                app:autoSizeMaxTextSize="300sp"
+                app:autoSizeMinTextSize="8sp"
+                app:autoSizeTextType="uniform"
+                app:layout_constraintEnd_toStartOf="@+id/guideline3"
+                app:layout_constraintHeight_percent="0.065"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/posterView"
+                app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+            <TextView
+                android:id="@+id/setTitleHeader"
+                style="@style/Heading"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginTop="65dp"
+                android:gravity="center"
+                android:text="@string/set_title"
+                app:autoSizeMaxTextSize="300sp"
+                app:autoSizeMinTextSize="8sp"
+                app:autoSizeTextType="uniform"
+                app:layout_constraintEnd_toEndOf="@+id/imageHeader"
+                app:layout_constraintHeight_percent="0.065"
+                app:layout_constraintStart_toStartOf="@+id/imageHeader"
+                app:layout_constraintTop_toBottomOf="@+id/imageHeader" />
+
+        <TextView
+            android:id="@+id/quoteHeader"
+            style="@style/Heading"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="@string/set_quote"
+            app:autoSizeMaxTextSize="300sp"
+            app:autoSizeMinTextSize="8sp"
+            app:autoSizeTextType="uniform"
+            app:layout_constraintEnd_toEndOf="@+id/setTitleHeader"
+            app:layout_constraintHeight_percent="0.065"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/setTitleHeader"
+            app:layout_constraintTop_toBottomOf="@+id/editTitle" />
+
+        <EditText
+                android:id="@+id/editTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/input_text_here"
+                android:imeOptions="actionDone"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:singleLine="true"
+                app:layout_constraintEnd_toEndOf="@+id/linearLayout"
+                app:layout_constraintStart_toStartOf="@+id/linearLayout"
+                app:layout_constraintTop_toBottomOf="@+id/setTitleHeader" />
+
+            <EditText
+                android:id="@+id/editQuote"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/input_text_here"
+                android:imeOptions="actionDone"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                app:layout_constraintEnd_toEndOf="@+id/linearLayout"
+                app:layout_constraintStart_toStartOf="@+id/linearLayout"
+                app:layout_constraintTop_toBottomOf="@+id/quoteHeader" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigation"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:menu="@menu/navigation_menu" />
+</androidx.drawerlayout.widget.DrawerLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Owner/AndroidStudioProjects/PosterGenerator/app/src/main/res/drawable-v24/trim.xml" value="0.33" />
+        <entry key="..\:/Users/Owner/AndroidStudioProjects/PosterGenerator/app/src/main/res/drawable/white_outline.xml" value="0.492" />
+        <entry key="..\:/Users/Owner/AndroidStudioProjects/PosterGenerator/app/src/main/res/layout-land/activity_main.xml" value="0.5" />
+        <entry key="..\:/Users/Owner/AndroidStudioProjects/PosterGenerator/app/src/main/res/layout-land/activity_presets.xml" value="0.5" />
+        <entry key="..\:/Users/Owner/AndroidStudioProjects/PosterGenerator/app/src/main/res/layout-land/activity_settings.xml" value="0.67" />
+        <entry key="..\:/Users/Owner/AndroidStudioProjects/PosterGenerator/app/src/main/res/layout/activity_gallery.xml" value="0.33" />
+        <entry key="..\:/Users/Owner/AndroidStudioProjects/PosterGenerator/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/Owner/AndroidStudioProjects/PosterGenerator/app/src/main/res/layout/activity_presets.xml" value="0.3692708333333333" />
+        <entry key="..\:/Users/Owner/AndroidStudioProjects/PosterGenerator/app/src/main/res/layout/activity_settings.xml" value="0.33" />
+        <entry key="..\:/Users/Owner/AndroidStudioProjects/PosterGenerator/app/src/main/res/layout/constraint_poster.xml" value="0.3109375" />
+        <entry key="..\:/Users/Owner/AndroidStudioProjects/PosterGenerator/app/src/main/res/layout/image_recycle_view.xml" value="0.55" />
+        <entry key="..\:/Users/Owner/AndroidStudioProjects/PosterGenerator/app/src/main/res/layout/poster_constraint.xml" value="0.33" />
+        <entry key="..\:/Users/Owner/AndroidStudioProjects/PosterGenerator/app/src/main/res/layout/purple_trim.xml" value="0.3729166666666667" />
+        <entry key="..\:/Users/Owner/AndroidStudioProjects/PosterGenerator/app/src/main/res/layout/quotes_recycle_view.xml" value="0.3729166666666667" />
+        <entry key="..\:/Users/Owner/AndroidStudioProjects/PosterGenerator/app/src/main/res/layout/titles_recycle_view.xml" value="0.40208333333333335" />
+        <entry key="..\:/Users/Owner/AndroidStudioProjects/PosterGenerator/app/src/main/res/menu/nav_menu.xml" value="0.415625" />
+        <entry key="..\:/Users/Owner/AndroidStudioProjects/PosterGenerator/app/src/main/res/menu/navigation_menu.xml" value="0.40208333333333335" />
+        <entry key="..\:/Users/Owner/AndroidStudioProjects/PosterGenerator/app/src/main/res/menu/toolbar_menu.xml" value="0.3692708333333333" />
+        <entry key="..\:/Users/Owner/AndroidStudioProjects/PosterGenerator/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.3735" />
+        <entry key="..\:/Users/Owner/AndroidStudioProjects/PosterGenerator/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.3735" />
+        <entry key="..\:/Users/Owner/AndroidStudioProjects/PosterGenerator/app/src/main/res/xml/file_paths.xml" value="0.3109375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

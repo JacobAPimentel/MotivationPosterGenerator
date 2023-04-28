@@ -1,0 +1,471 @@
+<resources>
+    <string name="app_name">Poster Generator</string>
+    <string name="Open">Open</string>
+    <string name="Close">Close</string>
+    <string name="presets">Presets</string>
+    <string name="settings">Settings</string>
+    <string name="poster_generator">Poster Generator</string>
+    <string name="placeholder">PLACEHOLDER</string>
+    <string name="placeholder_space">P L A C E H O L D E R</string>
+    <string name="input_text_here">Input Text Here</string>
+    <string name="save_image">Save Image</string>
+    <string name="camera">Camera</string>
+    <string name="file_image">From File</string>
+    <string name="image">IMAGE</string>
+    <string name="set_title">SET TITLE</string>
+    <string name="set_quote">SET QUOTE</string>
+    <string name="quotes">QUOTES</string>
+    <string name="titles">TITLES</string>
+    <string name="selected_quote">Selected Quote:</string>
+    <string name="selected_title">Selected Title:</string>
+    <string name="selected_quote_nc">Selected Quote</string>
+    <string name="selected_title_nc">Selected Title</string>
+    <string name="use_presets">USE PRESETS</string>
+    <string name="automatic_spacing_for_title">Automatic Spacing for Title</string>
+    <string name="show_line">Show Line</string>
+    <string name="center_crop">Center Crop</string>
+    <string name="background_color">Background Color:</string>
+    <string name="file_type">File Type:</string>
+    <string name="custom_image_goes_here">Custom image goes here!</string>
+    <string name="image_saved">Image saved to gallery.</string>
+    <string name="options">Options</string>
+
+    <string-array name="fileType">
+        <item>jpeg</item>
+        <item>png</item>
+    </string-array>
+
+    <string-array name="colors">
+        <item>black</item>
+        <item>pink</item>
+        <item>yellow</item>
+        <item>purple</item>
+        <item>green</item>
+    </string-array>
+
+    <string-array name="titles">
+        <item>Absorbing</item>
+        <item>Abundance</item>
+        <item>Acceptance</item>
+        <item>Accomplishment</item>
+        <item>Achievement</item>
+        <item>Action</item>
+        <item>Active</item>
+        <item>Adaptability</item>
+        <item>Adept</item>
+        <item>Advance</item>
+        <item>Advantage</item>
+        <item>Adventurous</item>
+        <item>Affirmation</item>
+        <item>Affirmative</item>
+        <item>Agreement</item>
+        <item>Alive</item>
+        <item>All-encompassing</item>
+        <item>Allow</item>
+        <item>Amazing</item>
+        <item>Amusement</item>
+        <item>Animated</item>
+        <item>Anticipation</item>
+        <item>Applaud</item>
+        <item>Appreciation</item>
+        <item>Assistance</item>
+        <item>Authentic</item>
+        <item>Awareness</item>
+        <item>Awesome</item>
+        <item>Balance</item>
+        <item>Beauty</item>
+        <item>Begin</item>
+        <item>Being</item>
+        <item>Believe</item>
+        <item>Benefit</item>
+        <item>Best</item>
+        <item>Better</item>
+        <item>Blessing</item>
+        <item>Bliss</item>
+        <item>Boost</item>
+        <item>Brave</item>
+        <item>Breathe</item>
+        <item>Brighten</item>
+        <item>Brilliant</item>
+        <item>Calm</item>
+        <item>Can-do</item>
+        <item>Capable</item>
+        <item>Care</item>
+        <item>Caring</item>
+        <item>Celebrating</item>
+        <item>Centered</item>
+        <item>Challenge</item>
+        <item>Change</item>
+        <item>Cheerful</item>
+        <item>Choice</item>
+        <item>Choose</item>
+        <item>Clarity</item>
+        <item>Clear-headedness</item>
+        <item>Climb</item>
+        <item>Comfort</item>
+        <item>Comfortable</item>
+        <item>Commitment</item>
+        <item>Committed</item>
+        <item>Community</item>
+        <item>Compassion</item>
+        <item>Compassionate</item>
+        <item>Competent</item>
+        <item>Concentrate</item>
+        <item>Confidence</item>
+        <item>Connect</item>
+        <item>Conscious</item>
+        <item>Consistency</item>
+        <item>Contentment</item>
+        <item>Conviviality</item>
+        <item>Cooperative</item>
+        <item>Courage</item>
+        <item>Create</item>
+        <item>Creativity</item>
+        <item>Curiosity</item>
+        <item>Delicious</item>
+        <item>Delight</item>
+        <item>Delightful</item>
+        <item>Depth</item>
+        <item>Determined</item>
+        <item>Discover</item>
+        <item>Divine</item>
+        <item>Donate</item>
+        <item>Dream</item>
+        <item>Eager</item>
+        <item>Ease</item>
+        <item>Efficient</item>
+        <item>Effortless</item>
+        <item>Elated</item>
+        <item>Embolden</item>
+        <item>Empathetic</item>
+        <item>Empathy</item>
+        <item>Empower</item>
+        <item>Empowerment</item>
+        <item>Encouragement</item>
+        <item>Energetic</item>
+        <item>Energized</item>
+        <item>Energy</item>
+        <item>Engagement</item>
+        <item>Engaging</item>
+        <item>Enhance</item>
+        <item>Enjoyment</item>
+        <item>Enough</item>
+        <item>Enthusiastic</item>
+        <item>Excellent</item>
+        <item>Exceptional</item>
+        <item>Excitement</item>
+        <item>Exercise</item>
+        <item>Exhilaration</item>
+        <item>Expand</item>
+        <item>Express</item>
+        <item>Extend</item>
+        <item>Extraordinary</item>
+        <item>Fabulous</item>
+        <item>Facilitate</item>
+        <item>Faith</item>
+        <item>Faithful</item>
+        <item>Fantastic</item>
+        <item>Fascinating</item>
+        <item>Fearless</item>
+        <item>Flexibility</item>
+        <item>Flourish</item>
+        <item>Flow</item>
+        <item>Focused</item>
+        <item>Forge</item>
+        <item>Forgive</item>
+        <item>Forward</item>
+        <item>Forward-looking</item>
+        <item>Free</item>
+        <item>Freedom</item>
+        <item>Friendliness</item>
+        <item>Friendship</item>
+        <item>Fulfilment</item>
+        <item>Fun</item>
+        <item>Gain</item>
+        <item>Generous</item>
+        <item>Generous</item>
+        <item>Genuine</item>
+        <item>Give</item>
+        <item>Giving</item>
+        <item>Glad</item>
+        <item>Gleam</item>
+        <item>Glow</item>
+        <item>Goal</item>
+        <item>Goal-oriented</item>
+        <item>Go-getting</item>
+        <item>Good</item>
+        <item>Gracious</item>
+        <item>Grateful</item>
+        <item>Gratitude</item>
+        <item>Great</item>
+        <item>Grounded</item>
+        <item>Growing</item>
+        <item>Growth</item>
+        <item>Guilt-free</item>
+        <item>Happiness</item>
+        <item>Happy</item>
+        <item>Harmonious</item>
+        <item>Harmony</item>
+        <item>Heal</item>
+        <item>Healing</item>
+        <item>Healthy</item>
+        <item>Help</item>
+        <item>Helpful</item>
+        <item>Honest</item>
+        <item>Honor</item>
+        <item>Hopeful</item>
+        <item>Humor</item>
+        <item>Illuminate</item>
+        <item>Imagination</item>
+        <item>Imagine</item>
+        <item>Impressive</item>
+        <item>Improve</item>
+        <item>Inclusive</item>
+        <item>Incredible</item>
+        <item>Individuality</item>
+        <item>Ingenious</item>
+        <item>Ingenuity</item>
+        <item>Innovative</item>
+        <item>Insightful</item>
+        <item>Inspiration</item>
+        <item>Inspire</item>
+        <item>Integrity</item>
+        <item>Intention</item>
+        <item>Interact</item>
+        <item>Interest</item>
+        <item>Interesting</item>
+        <item>Intuition</item>
+        <item>Invent</item>
+        <item>Invigorated</item>
+        <item>Invincible</item>
+        <item>Joy</item>
+        <item>Joyful</item>
+        <item>Keen</item>
+        <item>Kindness</item>
+        <item>Laughter</item>
+        <item>Learn</item>
+        <item>Liberty</item>
+        <item>Light</item>
+        <item>Light-hearted</item>
+        <item>Limitless</item>
+        <item>Listen</item>
+        <item>Little-by-little</item>
+        <item>Lively</item>
+        <item>Love</item>
+        <item>Loving</item>
+        <item>Magnanimous</item>
+        <item>Magnificent</item>
+        <item>Meaningful</item>
+        <item>Mediate</item>
+        <item>Meditative</item>
+        <item>Mindful</item>
+        <item>Miracle</item>
+        <item>Motivation</item>
+        <item>Move</item>
+        <item>Nature</item>
+        <item>New</item>
+        <item>Non-judgmental</item>
+        <item>Nourish</item>
+        <item>Nourishment</item>
+        <item>Nurture</item>
+        <item>Open</item>
+        <item>Openhearted</item>
+        <item>Openness</item>
+        <item>Opportunity</item>
+        <item>Optimal</item>
+        <item>Optimistic</item>
+        <item>Organized</item>
+        <item>Original</item>
+        <item>Passion</item>
+        <item>Patience</item>
+        <item>Peace</item>
+        <item>Peaceful</item>
+        <item>Perceptive</item>
+        <item>Persistence</item>
+        <item>Perspective</item>
+        <item>Playful</item>
+        <item>Pleasant</item>
+        <item>Pleasure</item>
+        <item>Plenty</item>
+        <item>Positive</item>
+        <item>Powerful</item>
+        <item>Presence</item>
+        <item>Present</item>
+        <item>Problem-solving</item>
+        <item>Productive</item>
+        <item>Profit</item>
+        <item>Profitable</item>
+        <item>Profound</item>
+        <item>Progress</item>
+        <item>Purpose</item>
+        <item>Quality</item>
+        <item>Radiant</item>
+        <item>Rainbow</item>
+        <item>Reassure</item>
+        <item>Recover</item>
+        <item>Refreshing</item>
+        <item>Reinforce</item>
+        <item>Rejoice</item>
+        <item>Relaxation</item>
+        <item>Relinquish</item>
+        <item>Remarkable</item>
+        <item>Resilient</item>
+        <item>Resourceful</item>
+        <item>Respect</item>
+        <item>Respond</item>
+        <item>Responsibility</item>
+        <item>Rest</item>
+        <item>Restorative</item>
+        <item>Revitalize</item>
+        <item>Reward</item>
+        <item>Richness</item>
+        <item>Safe</item>
+        <item>Sanctuary</item>
+        <item>Satisfaction</item>
+        <item>Satisfied</item>
+        <item>Savor</item>
+        <item>Secure</item>
+        <item>Self-belief</item>
+        <item>Self-care</item>
+        <item>Self-confidence</item>
+        <item>Self-esteem</item>
+        <item>Self-mastery</item>
+        <item>Self-motivation</item>
+        <item>Serendipity</item>
+        <item>Serenity</item>
+        <item>Share</item>
+        <item>Sharing</item>
+        <item>Shine</item>
+        <item>Silence</item>
+        <item>Simplicity</item>
+        <item>Sincere</item>
+        <item>Skillful</item>
+        <item>Smile</item>
+        <item>Solid</item>
+        <item>Solution</item>
+        <item>Solutions-oriented</item>
+        <item>Solve</item>
+        <item>Soul</item>
+        <item>Soulful</item>
+        <item>Space</item>
+        <item>Sparkling</item>
+        <item>Spectacular</item>
+        <item>Spirited</item>
+        <item>Spiritual</item>
+        <item>Splendid</item>
+        <item>Spontaneous</item>
+        <item>Spunky</item>
+        <item>Stable</item>
+        <item>Start</item>
+        <item>Stillness</item>
+        <item>Strengthen</item>
+        <item>Stretch</item>
+        <item>Strong</item>
+        <item>Stunning</item>
+        <item>Stupendous</item>
+        <item>Successful</item>
+        <item>Sunshine</item>
+        <item>Support</item>
+        <item>Supportive</item>
+        <item>Surpass</item>
+        <item>Surrender</item>
+        <item>Sustain</item>
+        <item>Tenacious</item>
+        <item>Terrific</item>
+        <item>Thankful</item>
+        <item>Thanks</item>
+        <item>Thoughtful</item>
+        <item>Thrilled</item>
+        <item>Thrive</item>
+        <item>Togetherness</item>
+        <item>Tranquillity</item>
+        <item>Transform</item>
+        <item>Transformation</item>
+        <item>Treasure</item>
+        <item>Trust</item>
+        <item>Truthful</item>
+        <item>Understanding</item>
+        <item>Unique</item>
+        <item>Upbeat</item>
+        <item>Uplift</item>
+        <item>Useful</item>
+        <item>Valuable</item>
+        <item>Value</item>
+        <item>Versatile</item>
+        <item>Vibrant</item>
+        <item>Vision</item>
+        <item>Vitality</item>
+        <item>Vitality</item>
+        <item>Vivacious</item>
+        <item>Volunteer</item>
+        <item>Welcome</item>
+        <item>Well</item>
+        <item>Well-being</item>
+        <item>Win-win</item>
+        <item>Wisdom</item>
+        <item>Wise</item>
+        <item>Wonder</item>
+        <item>Wonderful</item>
+        <item>Worthwhile</item>
+        <item>Worthy</item>
+        <item>Yes</item>
+    </string-array>
+
+    <string-array name="quotes">
+        <item>When you reach the end of your rope, tie a knot in it and hang on.</item>
+        <item>There is nothing permanent except change.</item>
+        <item>You cannot shake hands with a clenched fist.</item>
+        <item>Learning never exhausts the mind.</item>
+        <item>Start each day with a positive thought and a grateful heart.</item>
+        <item>Today is your day. Your mountain is waiting so get on your way.</item>
+        <item>Light tomorrow with today.</item>
+        <item>Yesterday is not ours to recover, but tomorrow is ours to win or lose.</item>
+        <item>When it rains, it pours? but soon, the sun shines again. Stay positive. Better days are on their way.</item>
+        <item>Learn the rules like a pro, so you can break them like an artist.</item>
+        <item>Never give up on a dream just because of the time it will take to accomplish it. The time will pass anyway.</item>
+        <item>Just one small positive thought in the morning can change your whole day.</item>
+        <item>Push yourself because no one else is going to do it for you.</item>
+        <item>Yesterday is not ours to recover, but tomorrow is ours to win or lose.</item>
+        <item>Every object, every being, is a jar of delight. Be a connoisseur.</item>
+        <item>Yesterday’s home runs don’t win today’s games.</item>
+        <item>Someday is not a say of the week.</item>
+        <item>You’re off to great places, today is your day. Your mountain is waiting, so get on your way.</item>
+        <item>Don’t count the days, make the days count.</item>
+        <item>Make each day your masterpiece.</item>
+        <item>You’re braver than you believe and stronger than you seem, and smarter than you think.</item>
+        <item>Wonder is the beginning of wisdom.</item>
+        <item>How wonderful it is that nobody need wait a single moment before starting to improve the world.</item>
+        <item>Believe you can and you’re halfway there.</item>
+        <item>Don’t judge each day by the harvest you reap but by the seeds that you plant.</item>
+        <item>Every day, there are 1,440 minutes. That means we have 1,440 daily opportunities to make a positive impact.</item>
+        <item>You’ve got to get up every morning with determination if you’re going to go to bed with satisfaction.</item>
+        <item>When you want something, all the universe conspires in helping you to achieve it.</item>
+        <item>Keep your face to the sunshine and you cannot see a shadow.</item>
+        <item>Be thankful for everything that happens in your life; it’s all an experience.</item>
+        <item>If you think you are too small to make a difference, try sleeping with a mosquito.</item>
+        <item>Just don’t give up trying to do what you really want to do. Where there are love and inspiration, I don’t think you can go wrong.</item>
+        <item>Stay positive in every situation and everything you do, never stop trying, have faith don’t stop due to failure.</item>
+        <item>One of the lessons that I grew up with was to always stay true to yourself and never let what somebody else says distract you from your goals.</item>
+        <item>Be mindful. Be grateful. Be positive. Be true. Be kind.</item>
+        <item>Life is a shipwreck but we must not forget to sing in the lifeboats.</item>
+        <item> No one is perfect that’s why pencils have erasers.</item>
+        <item>If everything seems under control, you’re not going fast enough.</item>
+        <item>Do the one thing you think you cannot do. Fail at it. Try again. Do better the second time. The only people who never tumble are those who never mount the high wire.</item>
+        <item>When one door of happiness closes, another opens.</item>
+        <item>If you are working on something exciting that you really care about, you don’t have to be pushed. The vision pulls you.</item>
+        <item>Optimism is a happiness magnet. If you stay positive good things and good people will be drawn to you.</item>
+        <item>Things may come to those who wait, but only the things left by those who hustle.</item>
+        <item>Every action in our lives touches on some chord that will vibrate in eternity.</item>
+        <item>Out of clutter, find simplicity. From discord, find harmony. In the middle of difficulty lies opportunity.</item>
+        <item>Optimism is a happiness magnet. If you stay positive, good things and good people will be drawn to you.</item>
+        <item>Dwell on the beauty of life. Watch the stars, and see yourself running with them.</item>
+        <item>Life is 10% what happens to us and 90% how we react to it.</item>
+        <item>Make improvements, not excuses. Seek respect, not attention.</item>
+        <item>Keep away from people who try to belittle your ambitions. Small people always do that, but the really great make you feel that you, too, can become great.</item>
+        <item>Success is not final; failure is not fatal: It is the courage to continue that counts.</item>
+        <item>It is better to fail in originality than to succeed in imitation.</item>
+        <item>In any moment of decision, the best thing you can do is the right thing. The worst thing you can do is nothing.</item>
+        <item>Reach high, for stars lie hidden in your soul. Dream deep, for every dream, precedes the goal.</item>
+        <item>We must all face the choice between what is right and what is easy.</item>
+    </string-array>
+</resources>
